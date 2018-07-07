@@ -3,7 +3,10 @@
     <StackLayout>
         <!-- Place new controls here -->
         <Label Text="Ethereum Mining Monitor" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        <Label x:Name="repHashrate" Text="Reported Hashrate: " HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+        <Label x:Name="curHashrate" Text="Hashrate: " HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+        <Label x:Name="workers" Text="Workers: " HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+        <Label x:Name="earnings" Text="Earnings: " HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
         <Button x:Name="refreshButton" Text="Refresh" Clicked="refreshButton_clicked" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-        <Label x:Name="hashrate" Text="Hashrate: " HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
     </StackLayout>
 </ContentPage>
