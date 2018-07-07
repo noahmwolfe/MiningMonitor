@@ -26,7 +26,7 @@ namespace MiningMonitor
                 // Now parse with JSON.Net
                 RootObject miningOutput = JsonConvert.DeserializeObject<RootObject>(json);
 
-                hashrate.Text = miningOutput.data.averageHashrate.ToString();
+                hashrate.Text = "Current Hashrate: " + (Math.Round(miningOutput.data.currentHashrate/1000000, 2)).ToString() + " MH/s";
             }
         }
     }
