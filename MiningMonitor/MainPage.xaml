@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:MiningMonitor" x:Class="MiningMonitor.MainPage">
-    <StackLayout>
+    
         <!-- Place new controls here -->
+    <StackLayout>
         <Label Text="Ethereum Mining Monitor" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
         <Label x:Name="repHashrate" Text="Reported Hashrate: " HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
         <Label x:Name="curHashrate" Text="Hashrate: " HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
@@ -9,4 +10,5 @@
         <Label x:Name="earnings" Text="Earnings: " HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
         <Button x:Name="refreshButton" Text="Refresh" Clicked="refreshButton_clicked" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
     </StackLayout>
+    
 </ContentPage>
