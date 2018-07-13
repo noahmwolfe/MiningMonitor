@@ -190,6 +190,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\ethermine.png" />
+    <BundleResource Include="Resources\ethermine.png" />
   </ItemGroup>
 </Project>
