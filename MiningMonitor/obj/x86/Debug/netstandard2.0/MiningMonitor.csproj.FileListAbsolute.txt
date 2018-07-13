@@ -1,0 +1,8 @@
+C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor\bin\x86\Debug\netstandard2.0\MiningMonitor.deps.json
+C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor\bin\x86\Debug\netstandard2.0\MiningMonitor.dll
+C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor\bin\x86\Debug\netstandard2.0\MiningMonitor.pdb
+C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor\obj\x86\Debug\netstandard2.0\MiningMonitor.csproj.CoreCompileInputs.cache
+C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor\obj\x86\Debug\netstandard2.0\MiningMonitor.AssemblyInfoInputs.cache
+C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor\obj\x86\Debug\netstandard2.0\MiningMonitor.AssemblyInfo.cs
+C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor\obj\x86\Debug\netstandard2.0\MiningMonitor.dll
+C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor\obj\x86\Debug\netstandard2.0\MiningMonitor.pdb

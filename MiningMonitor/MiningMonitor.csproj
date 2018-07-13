@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Platforms>AnyCPU;x86</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,5 +11,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="MiningOutput.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Images\ethermine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ethermine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
   </ItemGroup>
 </Project>
