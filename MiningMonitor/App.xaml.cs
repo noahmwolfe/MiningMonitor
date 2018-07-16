@@ -11,7 +11,7 @@ namespace MiningMonitor
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MiningPage());
         }
 
         protected override void OnStart()

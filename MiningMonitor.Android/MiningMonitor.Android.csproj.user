@@ -3,5 +3,6 @@
   <PropertyGroup>
     <SelectedDevice>HUAWEI BTV-W09</SelectedDevice>
     <AndroidDesignerPreferredTheme>Theme.DeviceDefault.NoActionBar.Fullscreen</AndroidDesignerPreferredTheme>
+    <DefaultDevice>Android_Accelerated_x86_Nougat</DefaultDevice>
   </PropertyGroup>
 </Project>

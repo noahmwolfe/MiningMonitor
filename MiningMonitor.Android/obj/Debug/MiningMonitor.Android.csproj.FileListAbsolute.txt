@@ -26,6 +26,7 @@ C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\re
 C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\res\mipmap-xxhdpi\launcher_foreground.png
 C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\res\mipmap-xxxhdpi\icon.png
 C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\res\mipmap-xxxhdpi\launcher_foreground.png
+C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\res\drawable\ethermine.png
 C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\R.cs.flag
 C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\uploadflags.txt
 C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\bin\Debug\Mono.Android.pdb
@@ -99,9 +100,7 @@ C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\an
 C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\android\assets\System.Xml.pdb
 C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\res\drawable\ethermine.png
 C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\bin\Debug\MiningMonitor.Android.dll
-C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\linksrc\MiningMonitor.pdb
 C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\linksrc\MiningMonitor.Android.dll.mdb
 C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

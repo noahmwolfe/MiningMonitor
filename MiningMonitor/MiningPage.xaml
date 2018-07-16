@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MiningMonitor.MiningPage">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Ethereum">
+
+        <!-- Place new controls here -->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="AUTO"/>
+                <RowDefinition Height="AUTO"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="AUTO"/>
+
+            </Grid.RowDefinitions>
+
+            <!--Mining Logo-->
+            <Image Source="ethermine.png" Grid.Row="0" HeightRequest="150" WidthRequest="150" Margin="0,50,0,25"/>
+
+            <!--Mining Monitor Title-->
+            <Label Text="Ethereum Mining Monitor" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Grid.Row="1" FontSize="Large" TextColor="Black" Margin="0,0,0,50"/>
+
+
+            <!--Stats Section-->
+
+            <StackLayout Grid.Row="2">
+                <Label x:Name="ethstats" Text="Current Statistics" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label x:Name="ethrepHashrate" Text="Reported Hashrate: " HorizontalOptions="Center" />
+                <Label x:Name="ethcurHashrate" Text="Hashrate: " HorizontalOptions="Center" />
+                <Label x:Name="ethworkers" Text="Workers: " HorizontalOptions="Center" />
+                <Label x:Name="ethearnings" Text="Earnings: " HorizontalOptions="Center" />
+            </StackLayout>
+
+
+            <!--Refresh Button-->
+            <Button x:Name="ethrefreshButton" Text="Refresh" Clicked="refreshButton_clicked" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Grid.Row="3" Margin="0,0,0,50"/>
+
+        </Grid>
+
+
+    </ContentPage>
+    
+    <ContentPage Title="0xBTC">
+
+        <!-- Place new controls here -->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="AUTO"/>
+                <RowDefinition Height="AUTO"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="AUTO"/>
+
+            </Grid.RowDefinitions>
+
+            <!--Mining Logo-->
+            <Image Source="ethermine.png" Grid.Row="0" HeightRequest="150" WidthRequest="150" Margin="0,50,0,25"/>
+
+            <!--Mining Monitor Title-->
+            <Label Text="Ethereum Mining Monitor" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Grid.Row="1" FontSize="Large" TextColor="Black" Margin="0,0,0,50"/>
+
+
+            <!--Stats Section-->
+
+            <StackLayout Grid.Row="2">
+                <Label x:Name="btcstats" Text="Current Statistics" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label x:Name="btcrepHashrate" Text="Reported Hashrate: " HorizontalOptions="Center" />
+                <Label x:Name="btccurHashrate" Text="Hashrate: " HorizontalOptions="Center" />
+                <Label x:Name="btcworkers" Text="Workers: " HorizontalOptions="Center" />
+                <Label x:Name="btcearnings" Text="Earnings: " HorizontalOptions="Center" />
+            </StackLayout>
+
+
+            <!--Refresh Button-->
+            <Button x:Name="btcrefreshButton" Text="Refresh" Clicked="refreshButton_clicked" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Grid.Row="3" Margin="0,0,0,50"/>
+
+        </Grid>
+
+
+    </ContentPage>
+</TabbedPage>

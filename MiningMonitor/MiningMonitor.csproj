@@ -21,4 +21,14 @@
   <ItemGroup>
     <Folder Include="Images\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Update="MiningPage.xaml.cs">
+      <DependentUpon>MiningPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="MiningPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
 </Project>
