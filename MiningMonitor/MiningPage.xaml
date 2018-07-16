@@ -34,7 +34,7 @@
 
 
             <!--Refresh Button-->
-            <Button x:Name="ethrefreshButton" Text="Refresh" Clicked="refreshButton_clicked" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Grid.Row="3" Margin="0,0,0,50"/>
+            <Button x:Name="ethrefreshButton" Text="Refresh" Clicked="ethrefreshButton_clicked" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Grid.Row="3" Margin="0,0,0,50"/>
 
         </Grid>
 
@@ -72,7 +72,7 @@
 
 
             <!--Refresh Button-->
-            <Button x:Name="btcrefreshButton" Text="Refresh" Clicked="refreshButton_clicked" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Grid.Row="3" Margin="0,0,0,50"/>
+            <!--<Button x:Name="btcrefreshButton" Text="Refresh" Clicked="refreshButton_clicked" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Grid.Row="3" Margin="0,0,0,50"/>-->
 
         </Grid>
 
