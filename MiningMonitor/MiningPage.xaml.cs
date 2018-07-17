@@ -17,7 +17,7 @@ namespace MiningMonitor
         {
             InitializeComponent();
 
-            refresh0xbtcStats();
+            refreshStats();
         }
         private void ethrefreshButton_clicked(object sender, EventArgs e)
         {

@@ -192,4 +192,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\ethermine.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bitcoin.png" />
+  </ItemGroup>
 </Project>
