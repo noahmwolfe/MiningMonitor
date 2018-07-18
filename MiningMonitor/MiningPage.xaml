@@ -65,9 +65,9 @@
             <StackLayout Grid.Row="2">
                 <Label x:Name="btcstats" Text="Current Statistics" HorizontalOptions="Center" FontSize="Medium"/>
                 <Label x:Name="btcrepHashrate" Text="Reported Hashrate: " HorizontalOptions="Center" />
-                <Label x:Name="btccurHashrate" Text="Hashrate: " HorizontalOptions="Center" />
-                <Label x:Name="btcworkers" Text="Workers: " HorizontalOptions="Center" />
-                <Label x:Name="btcearnings" Text="Earnings: " HorizontalOptions="Center" />
+                <Label x:Name="btccurHashrate" Text="Unpaid 0xBTC: " HorizontalOptions="Center" />
+                <Label x:Name="btcworkers" Text="Accumulated Shares: " HorizontalOptions="Center" />
+                <Label x:Name="btcearnings" Text="Total Payout: " HorizontalOptions="Center" />
             </StackLayout>
 
 
