@@ -78,4 +78,42 @@
 
 
     </ContentPage>
+
+    <ContentPage Title="Siacoin">
+
+        <!-- Place new controls here -->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="AUTO"/>
+                <RowDefinition Height="AUTO"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="AUTO"/>
+
+            </Grid.RowDefinitions>
+
+            <!--Mining Logo-->
+            <Image Source="bitcoin.png" Grid.Row="0" HeightRequest="150" WidthRequest="150" Margin="0,50,0,25"/>
+
+            <!--Mining Monitor Title-->
+            <Label Text="Siacoin Mining Monitor" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Grid.Row="1" FontSize="Large" TextColor="Black" Margin="0,0,0,50"/>
+
+
+            <!--Stats Section-->
+
+            <StackLayout Grid.Row="2">
+                <Label x:Name="siastats" Text="Current Statistics" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label x:Name="siarepHashrate" Text="Reported Hashrate: " HorizontalOptions="Center" />
+                <Label x:Name="siacurHashrate" Text="Unpaid 0xBTC: " HorizontalOptions="Center" />
+                <Label x:Name="siaworkers" Text="Accumulated Shares: " HorizontalOptions="Center" />
+                <Label x:Name="siaearnings" Text="Total Payout: " HorizontalOptions="Center" />
+            </StackLayout>
+
+
+            <!--Refresh Button-->
+            <!--<Button x:Name="btcrefreshButton" Text="Refresh" Clicked="refreshButton_clicked" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Grid.Row="3" Margin="0,0,0,50"/>-->
+
+        </Grid>
+
+
+    </ContentPage>
 </TabbedPage>
