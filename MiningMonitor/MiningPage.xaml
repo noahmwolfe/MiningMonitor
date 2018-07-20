@@ -92,7 +92,7 @@
             </Grid.RowDefinitions>
 
             <!--Mining Logo-->
-            <Image Source="bitcoin.png" Grid.Row="0" HeightRequest="150" WidthRequest="150" Margin="0,50,0,25"/>
+            <Image Source="sia.png" Grid.Row="0" HeightRequest="150" WidthRequest="150" Margin="0,50,0,25"/>
 
             <!--Mining Monitor Title-->
             <Label Text="Siacoin Mining Monitor" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Grid.Row="1" FontSize="Large" TextColor="Black" Margin="0,0,0,50"/>
@@ -102,15 +102,14 @@
 
             <StackLayout Grid.Row="2">
                 <Label x:Name="siastats" Text="Current Statistics" HorizontalOptions="Center" FontSize="Medium"/>
-                <Label x:Name="siarepHashrate" Text="Reported Hashrate: " HorizontalOptions="Center" />
-                <Label x:Name="siacurHashrate" Text="Unpaid 0xBTC: " HorizontalOptions="Center" />
-                <Label x:Name="siaworkers" Text="Accumulated Shares: " HorizontalOptions="Center" />
+                <Label x:Name="siacurHashrate" Text="Hashrate: " HorizontalOptions="Center" />
+                <Label x:Name="siaunpaid" Text="Unpaid Balance: " HorizontalOptions="Center" />
                 <Label x:Name="siaearnings" Text="Total Payout: " HorizontalOptions="Center" />
             </StackLayout>
 
 
             <!--Refresh Button-->
-            <!--<Button x:Name="btcrefreshButton" Text="Refresh" Clicked="refreshButton_clicked" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Grid.Row="3" Margin="0,0,0,50"/>-->
+            <Button x:Name="siarefreshButton" Text="Refresh" Clicked="siarefreshButton_clicked" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Grid.Row="3" Margin="0,0,0,50"/>
 
         </Grid>
 

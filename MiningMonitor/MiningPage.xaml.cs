@@ -24,6 +24,10 @@ namespace MiningMonitor
             refreshStats();
 
         }
+        private void siarefreshButton_clicked(object sender, EventArgs e)
+        {
+            refreshsiaStats();
+        }
 
         private void refreshStats()
         {
@@ -67,7 +71,7 @@ namespace MiningMonitor
 
                 //ethrepHashrate.Text = "Reported Hashrate: " + (Math.Round((double)miningOutput.data.reportedHashrate / 1000000, 2)).ToString() + " MH/s";
                 siacurHashrate.Text = "Current Hashrate: " + (Math.Round(miningOutput.hashes / 1000000, 2)).ToString() + " MH/s";
-                ethworkers.Text = "Unpaid Balance: " + (Math.Round(double.Parse(miningOutput.balance), 2)).ToString() + " Sia";
+                siaunpaid.Text = "Unpaid Balance: " + (Math.Round(double.Parse(miningOutput.balance), 2)).ToString() + " Sia";
                 siaearnings.Text = "Total Earnings: " + (Math.Round(double.Parse(miningOutput.paid), 2)).ToString() + " Sia";
             }
         }

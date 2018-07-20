@@ -195,4 +195,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\bitcoin.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sia.png" />
+  </ItemGroup>
 </Project>
