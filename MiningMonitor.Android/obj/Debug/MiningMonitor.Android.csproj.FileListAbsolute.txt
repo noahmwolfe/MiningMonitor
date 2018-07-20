@@ -102,6 +102,7 @@ C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\an
 C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\res\drawable\bitcoin.png
 C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\bin\Debug\MiningMonitor.Android.dll
+C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\linksrc\MiningMonitor.pdb
 C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\linksrc\MiningMonitor.Android.dll.mdb
 C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\Users\nwolf\Documents\GitHub\MiningMonitor\MiningMonitor.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
